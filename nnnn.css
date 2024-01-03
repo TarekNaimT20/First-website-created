@@ -1,0 +1,777 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.two-main{
+    background-image: linear-gradient(dodgerblue, rgb(1,60,129));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.two-main > div > h1 {
+    margin-left: 30px;
+    color: azure;
+}
+.lll{
+    font-size: 30px;
+    color: yellow;
+
+
+}
+
+.two-main > div > ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    
+}
+
+.two-main > div > ul > li{
+    background-color: rgb(127, 238, 138);
+    margin: 0px 10px;
+    margin-left: -10px;
+    padding: 10px 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 10px 0px 10px 0px;
+ 
+}
+
+.two-main > div > ul > li > a{
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+}
+
+.two-main > div > ul > li > a:hover{
+    background-color: rgb(249, 7, 7);
+    border-radius: 10px 0px 10px 0px;
+}
+
+.two-main > div > ul > li > ul{
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgb(83, 60, 24);
+    list-style: none;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    width: 120px;
+    box-shadow: 5px 5px 10px;
+    transition: 0.5s;
+    transform: scaleY(0);
+    transform-origin: top; 
+    
+}
+
+.two-main > div > ul > li > ul > li > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.two-main > div > ul > li > ul > li{
+    padding: 10px 0px;
+    border-top: 1px solid #fefdfd;
+    border-bottom: 1px solid #fefdfd;
+    border-radius: 10px;
+    
+    
+}
+
+.two-main > div > ul > li > ul > li:hover{
+    background-color: rgb(65, 126, 25);
+    
+}
+
+.two-main > div > ul > li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    
+}
+/* First header area */
+
+#sespart{
+    background-image: linear-gradient(rgba(101, 49, 49, 0), rgba(240, 21, 21, 0.16)) , url(bag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+   
+}
+
+.textg{
+    padding-top: 100px;
+}
+
+.textg > h5{
+    color: aliceblue;
+    font-size: 15px;
+    
+
+}
+
+.textg > h1{
+    background-color: rgba(0, 3, 1, 0.36);
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 10px;
+
+}
+
+.icon{
+    
+    
+
+}
+.icon > a > i{
+    background-color: rgba(0, 93, 0, 0.668);
+    text-decoration: none;
+    font-size: 25px;
+    color: azure;
+    padding: 5px;
+    border: 2px solid white;
+    margin: 0px 5px;
+}
+
+.icon > a > i:hover{
+    background-color: rgb(6, 7, 5);
+}
+
+
+.textg > button{
+    background-color: rgba(0, 196, 0, 0.056);
+    margin: 150px auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px 0px 20px 0px;
+    border: 2px solid white;
+    transition: 0.5s;
+    cursor: grab;
+
+
+}
+
+.textg > button:hover{
+    background-color:  #64ab4d;
+    color: black;
+    
+}
+  
+/* main aria */
+
+#fffff{
+    background-color: antiquewhite;
+}
+.section-1{
+    display: flex;
+    width: 1000px;
+    margin: 100px auto;
+    padding: 100px 0px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.learn-programming{
+    width: 300px;
+    padding: 5px 10px;
+    transition: 0.5s;
+
+}
+
+.learn-programming > i{
+    font-size: 50px;
+    
+}
+
+.learn-programming > h3{
+    margin: 10px;
+
+}
+
+.learn-programming > p{
+    text-align: justify;
+}
+.learn-programming:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+
+/* send */
+
+.nadimH{
+    width: 250px;
+    margin: auto;
+}
+
+.nadimH > h1{
+    text-align: center;
+    position: relative;
+
+}
+.nadimH > h1::after{
+    content: "";
+    top: 36px;
+    left: 100px;
+    background-color: red;
+    width: 50px;
+    height: 5px;
+    position: absolute;
+}
+.covwe{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.disk{
+    width: 450px;
+    
+
+}
+
+.disk > h6{
+    color: chocolate;
+    font-size: 15px;
+}
+
+.disk > h5{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+.disk > p{
+    text-align: justify;
+    padding-bottom: 30px;
+
+}
+
+.disk > a{
+    background-color: #5cec2ce8;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.5s;
+    
+    
+}
+.disk > a:hover{
+    background-color: rgba(255, 0, 0, 0.567);
+}
+
+
+.mmmm{
+    background-color: beige;
+}
+
+.asol{
+    width: 1000px;
+    margin: auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 40px; 
+}
+
+
+
+.Lorem-ipsum{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+
+}
+
+.Lorem-ipsum-text{
+    background-color: #b8e6a9;
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+.Lorem-ipsum-text > i{
+    font-size: 40px;
+    color: rgba(255, 16, 16, 0.486);
+       
+}
+
+.Lorem-ipsum-text > h2{
+    margin: 10px 0px;
+}
+
+.Lorem-ipsum-text:hover{
+    box-shadow: 2px 2px 20px #12280b;
+}
+
+.price-head{
+    display: flex;
+}
+
+.hh{
+    background-color: rgb(229, 229, 229);
+}
+
+
+.alldiv{
+    width: 1000px;
+    margin: auto;
+    
+
+}
+
+.Course-Title > h1{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+.sectin-head{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.threediv{
+    width: 300px;
+    transition: 0.5s;
+
+}
+
+.photon > img{
+    max-width: 100%;
+    height: 200px;
+
+}
+
+.threediv > h3{
+    margin: 20px 0px;
+}
+
+
+.margin{
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    padding: 15px 0px;
+    margin: 15px 20px;
+}
+
+.margin > .pp{
+    font-size: 25px;
+
+}
+
+.margin > .per{
+    color: gray;
+}
+
+.threediv > button{
+    background-color: #30b503;
+    color: #fefdfd;
+    font-size: 15px;
+    padding: 7px 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.threediv > button:hover{
+    background-color: brown;
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.threediv > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+
+}
+.threediv:hover{
+    box-shadow: 5px 5px 20px black;
+}
+
+
+/* Testimonial section */
+
+
+.customaer{
+    background-color: blanchedalmond;
+}
+
+.testimonial-customaer{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+
+
+}
+
+.testimonial{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+
+.testimonial > h1{
+    font-size: 30px;
+
+}
+.testimonial > h5{
+    letter-spacing: 4px;
+    color: grey;
+}
+
+.testimonial-section-customar{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+
+}
+
+
+
+.profile{
+    display:flex;
+    align-items: center;
+    background-color: #b8e6a9;
+    padding: 10px;
+}
+
+.photoi{
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.photoi > img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.reating{
+    color: chocolate;
+    margin-top: 10px;
+}
+
+
+
+
+#dwdd{
+    background-image: url("bb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0px;
+
+}
+
+.happy{
+    display: flex;
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+    color: #fefefe;
+}
+
+.gg > i{
+    font-size: 50px;
+    padding: 10px 0px;
+    color: darkorange;
+
+}
+
+/* session-vlog */
+
+.h{
+    background-color: #b8e6a9;
+    margin-bottom: 100px;
+}
+.vlog{
+    width: 1000px;
+    margin: auto;
+
+}
+.session-vlog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px
+    
+}
+
+.jap{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.imagee{
+    max-width: 100%;
+    height: 200px;
+    width: 400px;
+    transition: 1s;
+    
+}
+.iconm{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    
+}
+
+.iconm > i{
+    font-size: 50px;
+    margin-bottom: 10px; 
+    color: white;  
+
+}
+.iconm > h5{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.jap:hover .iconm{
+    opacity: 1;
+    background-color: #00000055;
+    transition: 0.5s;
+}
+
+
+.jap:hover .imagee{
+    transform: scale(1.5);
+}
+
+.ptp{
+    text-align: center;
+    margin-top: 10px;
+}
+.ptp > h5{
+    color: grey;
+    margin-top: 10px;
+
+}
+
+/* Contact From */
+
+
+.Contact-From{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+    
+    
+}
+
+.Name{
+    display: flex;
+    background-color: #ffd8d8;
+
+}
+.hellw{
+    display: flex;
+}
+
+.massage{
+    width: 600px;
+}
+
+.asdfg{
+    display: flex;
+
+}
+
+.asdfg h4{
+    margin: 5px 20px;
+
+}
+
+
+.asdfg input{
+    width: 200px;
+    padding: 5px;
+    margin: 0px 20px;
+
+}
+
+.massage h4{
+    margin: 5px 20px;
+
+}
+
+.poi{
+    width: 400px;
+    padding: 5px;
+    margin: 0px 20px;
+
+}
+#jj{
+    width: 85%;
+    height: 100px;
+    margin: 0px 20px;
+    border: none;
+}
+
+.ghjk{
+    margin: 0px 20px;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    
+}
+
+.fghjkl{
+    display: flex;
+    width: 800px;
+    padding-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    
+    
+    
+}
+
+.tta i{
+    background-color: #30b503;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+
+.metwo{
+    background-color: #30b503;
+    color: black;
+}
+
+.maingg{
+    width: 1000px;
+    margin: auto;
+}
+
+.ffodd{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+.sssss{
+    width: 230px;
+}
+.sssss h3{
+    color: white;
+    margin: 30px 0px 10px 0px;
+}
+.pppp1{
+    margin-bottom: 20px;
+}
+.number1{
+    margin: 10px 0px;
+}
+
+.sssss i{
+    color: white;
+}
+
+.ffodd .sssss:nth-child(2) p{
+    margin: 10px 0px;
+}
+
+.ffodd .sssss:nth-child(3) p{
+    margin: 10px 0px;
+}
+
+.ffodd .sssss:nth-child(4) p{
+    margin: 10px 0px;
+}
+
+.ffodd .sssss:nth-child(4) a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.asde{
+    margin: 20px 0px;
+}
+
+.nisarmm{
+    
+}
+
+.nisarmm ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+    
+    
+}
+
+.nisarmm ul li{
+    margin: 20px;
+
+}
+
+.nisarmm ul li a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 20px;
+    color: black;
+
+}
+
+.vip{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
